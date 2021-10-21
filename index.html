@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regular expreesion</title>
+    <script src="Asstes/javascript/main.js"></script>
+    <style>
+      .checkemail {
+        display: flex;
+        flex-direction: column;
+      }
+      .submit {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="checkemail" onsubmit="return myfun()">
+      enter the email <input type="email" id="emailcheck" />
+      <span id="showMessage"></span>
+
+      <button class="submit">submit email</button>
+    </form>
+  </body>
+</html>
